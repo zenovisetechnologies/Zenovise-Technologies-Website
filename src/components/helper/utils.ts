@@ -41,10 +41,27 @@ export const processCardItem = [
         border: "left",
     },
     {
+        title: "Understand Requirements",
+        circlePosition: {
+            left: "50%",
+            top: "-13px",
+            transform: "translateX(-50%)",
+        },
+        border: "left",
+    },
+    {
         title: "Prototype and Design",
         circlePosition: {
             top: "-13px",
             right: "50px"
+        },
+        border: "right",
+    },
+    {
+        title: "Development",
+        circlePosition: {
+            left: "18px",
+            bottom: "-13px"
         },
         border: "right",
     },
@@ -57,37 +74,20 @@ export const processCardItem = [
         border: "left",
     },
     {
-        title: "Maintenance and Support",
-        circlePosition: {
-            top: "-13px",
-            right: "50px"
-        },
-        border: "right",
-    },
-    {
-        title: "Understand Requirements",
-        circlePosition: {
-            left: "50%",
-            top: "-13px",
-            transform: "translateX(-50%)",
-        },
-        border: "left",
-    },
-    {
-        title: "Development",
-        circlePosition: {
-            left: "18px",
-            bottom: "-13px"
-        },
-        border: "right",
-    },
-    {
         title: "Deployment and Go Live",
         circlePosition: {
             right: "0",
             top: "-4px"
         },
         border: "left",
+    },
+    {
+        title: "Maintenance and Support",
+        circlePosition: {
+            top: "-13px",
+            right: "50px"
+        },
+        border: "right",
     },
 ]
 
